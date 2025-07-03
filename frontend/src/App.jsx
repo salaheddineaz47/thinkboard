@@ -12,7 +12,6 @@ function App() {
         <Route path="/create" element={<CreatePage />} />
         <Route path="/note/:id" element={<NoteDetailPage />} />
       </Routes>
-      </div>
     </div>
   );
 }
